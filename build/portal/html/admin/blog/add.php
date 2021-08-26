@@ -89,6 +89,8 @@
                 </div>
                 <input type="submit" class="btn btn-default" value="Publish">
             </form>
+
+//add token from tiny MCE :
             <script src="https://cdn.tiny.cloud/1/{{SECRET_TOKEN_TINYMCE}}/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
             <script>
                 tinymce.init({
