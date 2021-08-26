@@ -89,7 +89,7 @@
                 </div>
                 <input type="submit" class="btn btn-default" value="Publish">
             </form>
-            <script src='//cdn.tinymce.com/4/tinymce.min.js'></script>
+            <script src="https://cdn.tiny.cloud/1/{{SECRET_TOKEN_TINYMCE}}/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
             <script>
                 tinymce.init({
                     selector: 'textarea',
